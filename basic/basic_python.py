@@ -79,4 +79,47 @@ else:
 
 #single line if else
 
-print("Even" if int(input("Enter a number"))%2==0 else "Odd") 
+#print("Even" if int(input("Enter a number"))%2==0 else "Odd") 
+
+#loop
+""" #write a program to print mysirg on screen 5 times
+x=5
+while x>0:
+    print("MySirg")
+    x=x-1; """
+
+""" #write a program to print first N natural numberc
+x=int(input("Enter value of N "))
+i=1
+while i<=x:
+    print(i)
+    i+=1
+ """
+
+""" #write a program to calculate sum of N natural Number
+x=int(input("Enter value of N "))
+s=0
+while x>0:
+    s+=x
+    x-=1
+print(s)
+     """
+
+""" #check prime number or not
+x=int(input("Enter a number "))
+i=2
+while(i<x):
+    if x%i==0:
+     break
+    i+=1
+if x==i:
+   print(x,"is prime number")
+else:
+   print(x,"is not a prime number")
+ """
+""" #for loop
+x="MySirg"
+for i in x:
+    print(i,ord(i)) """
+
+    
