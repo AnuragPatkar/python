@@ -122,4 +122,52 @@ x="MySirg"
 for i in x:
     print(i,ord(i)) """
 
-    
+""" # range  
+r=range(1,10,1)
+print(r)
+for i in r:
+    print(i) """
+
+""" #write a program to print N natural numbers
+x=int(input("Enter a number "))
+for i in range(1,x+1):
+    print(i,end=' ') """
+
+""" #write a program to print squre of first N natural number
+x=int(input("Enter a number "))
+for i in range(1,x+1):
+    print(i**2,end=' ') """
+
+#list
+l1=[10,20,30]
+print(type(l1))
+l2=[10,5.5,30,"anu"]
+print(type(l2))
+print(l1)
+print(l2)
+print(l1[0],l1[1])
+print(l1[-3],l1[-2]) #negative indexing
+for i in l2:
+    print(i,end=' ')
+print()  # To move to the next line after the loop
+#delete
+del l2[3]
+for i in l2:
+    print(i,end=' ')
+print()  # To move to the next line after the loop
+#edit
+l2[0]=50
+for i in l2:
+    print(i,end=' ')
+print()  # To move to the next line after the loop
+#append
+l2.append(70)
+for i in l2:
+    print(i,end=' ')
+print()
+#insert
+l2.insert(2,120)
+for i in l2:
+    print(i,end=' ')
+print()
+
