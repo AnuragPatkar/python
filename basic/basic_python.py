@@ -138,7 +138,7 @@ x=int(input("Enter a number "))
 for i in range(1,x+1):
     print(i**2,end=' ') """
 
-#list
+""" #list
 l1=[10,20,30]
 print(type(l1))
 l2=[10,5.5,30,"anu"]
@@ -169,5 +169,40 @@ print()
 l2.insert(2,120)
 for i in l2:
     print(i,end=' ')
-print()
+print() """
 
+""" #write a python script to reverse a given string word wise
+x=' '.join(input("enter a string: ").split(' ')[::-1])
+print(x) """
+
+""" x=[10,20,30,10,20]
+x= list(set(x))
+print(x) """ 
+
+""" def sumOfSqure(n):
+    if n==1:
+        return 1
+    return n**2+sumOfSqure(n-1)
+
+print(sumOfSqure(int(input("Enter a number ")))) """
+    
+""" class Test:
+    x=5
+    def f1():
+        m1=4
+    def __init__(self,a):
+        self.a=a
+
+t1=Test(5)
+t2=Test(6) """
+
+# taking two inputs at a time
+x, y = input("Enter two values: ").split()
+print("Number of boys: ", x)
+print("Number of girls: ", y)
+ 
+# taking three inputs at a time
+x, y, z = input("Enter three values: ").split()
+print("Total number of students: ", x)
+print("Number of boys is : ", y)
+print("Number of girls is : ", z)
